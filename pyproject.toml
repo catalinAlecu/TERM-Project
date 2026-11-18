@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "term-mobile"
+version = "0.1.0"
+description = "A mobile application starter built with Python and Flet."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flet>=0.25.0",
+]
+
+[tool.setuptools]
+py-modules = ["main"]
